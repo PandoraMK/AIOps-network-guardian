@@ -61,6 +61,10 @@ scikit-learn>=1.2.0
 jupyter>=1.0.0
 matplotlib>=3.5.0
 ```
+Install them via your terminal or VS Code environment by running:
+```
+pip install -r requirements.txt
+```
 
 ## Getting Started
 
