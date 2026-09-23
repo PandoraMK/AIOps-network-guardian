@@ -50,6 +50,18 @@ The system is organized into four logical, sequential phases:
 
 ---
 
+## Definition of Terms
+
+* **AIOps (Artificial Intelligence for IT Operations):** The application of machine learning, predictive modeling, and data analytics to automate operational workflows and IT issue resolution.
+* **Closed-Loop Automation:** An automated system architecture that can monitor environmental telemetry, diagnose faults, and autonomously execute corrective action without human intervention.
+* **ICASA:** Independent Communications Authority of South Africa; the national regulatory body that enforces telecommunications quality-of-service standards (such as maintaining call drop rates under 3.0%).
+* **Lag Features:** Historical data values shifted backward in time (e.g., cabinet temperature 1 hour ago) used by machine learning algorithms to capture operational momentum and trends.
+* **MOS (Mean Opinion Score):** A numerical metric ranging from 1 to 5 representing perceived voice or overall service quality experienced by end-users.
+* **PRB (Physical Resource Block):** The smallest unit of radio resource allocation in LTE/5G networks (combining frequency and time). High PRB utilization indicates heavy network congestion.
+* **Random Forest Classifier:** An ensemble supervised learning method that constructs multiple decision trees during training to output robust classification predictions.
+
+---
+
 ## Requirements & Dependencies
 
 To run this project locally, ensure you have Python 3.x and the following packages installed:
