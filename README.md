@@ -1,3 +1,4 @@
+![AIOps Guardian CI/CD Pipeline](https://github.com/PandoraMK/AIOps-network-guardian/actions/workflows/ci.yml/badge.svg)
 # AIOps Autonomous Network Guardian & Predictive Simulation
 
 An end-to-end AIOps (Artificial Intelligence for IT Operations) framework designed to transition telecommunications Network Operations Centers (NOCs) from reactive firefighting to proactive, automated self-healing. 
