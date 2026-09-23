@@ -50,6 +50,18 @@ The system is organized into four logical, sequential phases:
 
 ---
 
+## Requirements & Dependencies
+
+To run this project locally, ensure you have Python 3.x and the following packages installed:
+
+```text
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.2.0
+jupyter>=1.0.0
+matplotlib>=3.5.0
+```
+
 ## Getting Started
 
 Clone the repository:
