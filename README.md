@@ -54,4 +54,4 @@ The system is organized into four logical, sequential phases:
 
 Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/aiops-network-guardian.git](https://github.com/your-username/aiops-network-guardian.git)
+   git clone [https://github.com/PandoraMK/aiops-network-guardian.git](https://github.com/PandoraMK/AIOps-network-guardian.git)
