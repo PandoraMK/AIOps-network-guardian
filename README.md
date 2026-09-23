@@ -2,7 +2,7 @@
 
 An end-to-end AIOps (Artificial Intelligence for IT Operations) framework designed to transition telecommunications Network Operations Centers (NOCs) from reactive firefighting to proactive, automated self-healing. 
 
-Developed entirely within a structured Jupyter Notebook environment, this project simulates high-frequency cellular tower telemetry—incorporating real-world operational stressors such as power grid instability, thermal overheating, and regulatory drop-rate compliance—to forecast failures one hour in advance and execute closed-loop remediation playbooks.
+Developed entirely within a structured Jupyter Notebook environment, this project simulates high-frequency cellular tower telemetry by incorporating real-world operational stressors such as power grid instability, thermal overheating, and regulatory drop-rate compliance in order to forecast failures one hour in advance and execute closed-loop remediation playbooks.
 
 ---
 
