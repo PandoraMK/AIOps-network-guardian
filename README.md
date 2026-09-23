@@ -10,17 +10,17 @@ Developed entirely within a structured Jupyter Notebook environment, this projec
 
 The system is organized into four logical, sequential phases:
 
-### 1. Multivariate Telemetry Simulation (`simulation.py` / Notebook Part 1)
+### 1. Multivariate Telemetry Simulation (Notebook Part 1)
 * Generates high-resolution 30-day operational telemetry across multiple regional base stations.
 * Tracks core performance indicators including **CPU load, PRB resource utilization, cabinet temperature, core latency, Mean Opinion Score (MOS), power grid stability, and ICASA drop-rate compliance**.
 * Injects realistic, continuous failure episodes (e.g., thermal spikes and grid outages) to replicate genuine field conditions.
 
-### 2. Time-Series Feature Engineering & Machine Learning (`model.py` / Notebook Part 2)
+### 2. Time-Series Feature Engineering & Machine Learning (Notebook Part 2)
 * Engineers temporal **lag features** (`Temp_Lag_1`, `Temp_Lag_2`, `Health_Lag_1`, `CPU_Lag_1`) to capture operational momentum and trends before a failure occurs.
 * Trains a **Random Forest Classifier** with optimized balanced class weighting to handle class imbalance and eliminate alert fatigue.
 * Establishes a **1-hour predictive horizon** (`Future_Anomaly`), allowing engineers to act *before* service degradation impacts customers.
 
-### 3. Closed-Loop Automation Playbooks (`playbooks.py` / Notebook Part 3)
+### 3. Closed-Loop Automation Playbooks (Notebook Part 3)
 * Automatically scans network inference outputs and isolates the exact root cause of a predicted failure.
 * Dispatches targeted self-healing scripts:
   * **Power Playbook:** Engages backup lithium battery reserves and dispatches diesel generators upon grid failure.
