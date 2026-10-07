@@ -1,4 +1,4 @@
-![AIOps Guardian CI/CD Pipeline](https://github.com/PandoraMK/AIOps-network-guardian/actions/workflows/ci.yml/badge.svg)
+![AIOps Guardian CI/CD Pipeline]
 
 # AIOps Autonomous Network Guardian & Predictive Simulation
 
