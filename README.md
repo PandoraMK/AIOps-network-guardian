@@ -1,4 +1,4 @@
-![AIOps Guardian CI/CD Pipeline]
+
 
 # AIOps Autonomous Network Guardian & Predictive Simulation
 
